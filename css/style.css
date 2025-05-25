@@ -1,0 +1,87 @@
+nav{
+    margin-top:5px;
+}
+#icerik{
+    margin-top:100px;
+}
+.nav-item{
+    margin-left:10px;
+}
+body{
+    background-color:rgb(173, 66, 54);
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+#content-col{
+    border-radius:50px;
+    padding:50px;
+    text-align:justify;
+    overflow:auto;
+}
+#content-mid-col{
+    border-radius:50px;
+    padding:50px;
+    text-align:center;
+}
+td{
+    padding:15px;
+    padding-left:0px;
+    padding-right:3px;
+}
+input[type=radio]{
+    margin-right:10px;
+}
+a{
+    text-decoration:none;
+}
+p{
+    margin-top:10px;
+}
+h1{
+    text-align:center;
+}
+.carousel-caption{
+    background-color: rgb(86, 82, 82);
+    border-radius:30px;
+}
+.carousel{
+    float:left;
+    margin-right:15px;
+}
+/*aşağıdaki kodlar carousel float özelliğinden dolayı sürekli yazıların hizasını bozmamak için carousel'in boyutunu sabitler. */
+.carousel-item {
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+}
+.carousel-item img {
+    width: 100%;
+}
+header{
+    float:right;
+    overflow:auto;
+    text-align:right;
+    width:35%;
+
+}
+header, section{
+    border-radius:20px;
+    background-color: rgba(78, 78, 78, 0.507);
+    padding:30px;
+    transition: 1s ease;
+}
+header:hover, section:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+section{
+    overflow:auto;
+    width:90%;
+    margin-bottom:15px;
+}
+#sec1{
+    width:63%;
+    float:left;
+}
